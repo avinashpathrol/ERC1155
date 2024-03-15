@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "composite": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": [
+    "./.eslintrc.js",
+    "./index.ts",
+    "index.d.ts",
+    "./deploy",
+    "./test",
+    "./tasks",
+    "./typechain",
+    "./hardhat.config.ts",
+    "./helper-hardhat-config.ts",
+    "./helper-functions.ts",
+    "./scripts"
+  ]
+}

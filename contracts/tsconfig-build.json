@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "lib": ["esnext"],
+    "experimentalDecorators": true,
+    "strict": true,
+    "composite": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["typechain/**/*.ts", "index.ts"],
+  "exclude": ["test", "scripts", "artifacts", "cache", "contracts"]
+}
